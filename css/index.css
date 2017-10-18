@@ -1,0 +1,107 @@
+* {
+  box-sizing: border-box;
+  background-color: black;
+}
+
+.audio-player {
+  width: 100vw;
+  height: 50px;
+  background-color: black;
+  z-index: 999;
+  margin: 0 auto;
+  border: 1px solid black;
+  bottom: 0;
+  position: fixed;
+}
+
+.btngrp {
+  padding-left: 15px;
+  padding-top: 3px;
+  margin: 0 auto;
+}
+
+button {
+  font-size: 16px;
+  font-family: san-serif;
+}
+
+button:active {
+  font-size: 12px;
+}
+
+button:hover {
+  background-color: #666;
+}
+
+button:focus {
+  outline: none;
+}
+
+
+.play {
+  color: white;
+  height: 40px;
+  width: 100px;
+  background-color: black;
+  display: inline;
+  margin: 0 auto;
+  border: 1px solid black;
+}
+
+.pause {
+  color: white;
+  height: 40px;
+  width: 100px;
+  background-color: black;
+  display: inline;
+  margin: 0 auto;
+  border: 1px solid black;
+}
+
+.stop {
+  color: white;
+  height: 40px;
+  width: 100px;
+  background-color: black;
+  display: inline;
+  margin: 0 auto;
+  border: 1px solid black;
+}
+
+.prev {
+  color: white;
+  height: 40px;
+  width: 100px;
+  background-color: black;
+  display: inline;
+  margin: 0 auto;
+  border: 1px solid black;
+}
+
+.next {
+  color: white;
+  height: 40px;
+  width: 100px;
+  background-color: black;
+  display: inline;
+  margin: 0 auto;
+  border: 1px solid black;
+}
+
+
+video.video-bg { 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background: url(polina.jpg) no-repeat;
+    background-size: cover;
+}
